@@ -55,6 +55,12 @@ img{
     width: 100%;
     max-width: 100%;
 }
+.img {
+    width:400px;
+    -moz-box-shadow:2px 2px 12px 0px rgba(0, 0, 0, 1);
+-webkit-box-shadow: 2px 2px 12px 0px rgba(0, 0, 0, 1);
+box-shadow: 2px 2px 12px 0px rgba(0, 0, 0, 1);
+}
 
 a{
     text-decoration: none;
@@ -64,6 +70,10 @@ p{
     font-size: 1.6rem;
 }
 
+h1{
+   font-size:2rem;
+}
+
 
 .logo{
     display: flex;
@@ -71,6 +81,18 @@ p{
     width:auto; 
      
     
+}
+
+.iframe {
+  display:block;
+  width:100vw;
+  height: calc(.75*50vw);
+  margin: 5rem auto;
+max-width:100%;
+max-height:100%;
+-moz-box-shadow:    2px 2px 12px 0px rgba(0, 0, 0, 1);
+-webkit-box-shadow: 2px 2px 12px 0px rgba(0, 0, 0, 1);
+box-shadow:         2px 2px 12px 0px rgba(0, 0, 0, 1);
 }
 
 .videowrapper {
@@ -576,6 +598,21 @@ footer{
     height: 70%;
 }
 
+.social-icons-contact{
+  list-style: none;
+}
+
+.social-icons-contact i{
+  font-size: 4rem;
+  color: var(--secondary-font-color);
+  padding: .8rem 2rem;
+  margin:1rem;
+  
+}
+
+
+
+
 .social-icons{
     list-style: none;
     margin-bottom: 5.4rem;
@@ -641,6 +678,10 @@ footer{
 /* selectors relative to radio inputs */
 
 
+.zoom {
+  display:inline-block;
+  position: relative;
+}
 
 .tabs {
   left:30%;
