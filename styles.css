@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin|Herr+Von+Muellerhoff|Source+Sans+Pro:400,900&display=swap');
-/*Global styles*/
-/* @import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap'); */ 
 
-/* @import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre|Source+Sans+Pro:400,900&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Bad+Script|Source+Sans+Pro:400,900&display=swap'); */
 *,
 *::before,
 *::after{
@@ -246,7 +242,7 @@ header{
 .hero-description{
     width: 100%;
     height: 70vh;
-    background: url("images/hero1.jpg") center no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)),url("images/bridge.JPG") center no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -506,7 +502,7 @@ header{
 
 /*Tasteful recipes*/
 .tasteful-recipes{
-    background: url("images/testefull.jpg") center no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)),url("images/23\ \(master\ bedroom\ 2rd\ floor\).jpg") center no-repeat;
     background-size: cover;
 }
 
@@ -540,7 +536,11 @@ header{
 
 /*The perfect blend*/
 .perfect-blend{
-    background: url("images/perfect-blend1.jpg") center no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)),url("images/9\ \(fireplace\ 1st\ floor\).jpg") center no-repeat;
+    background-size: cover;
+}
+.third-floor-section{
+  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)),url("images/14living-room-3-floor.jpg") center no-repeat;
     background-size: cover;
 }
 /*Footer*/
@@ -1463,7 +1463,7 @@ footer{
     }
 
     .sub-headline{
-        font-size: 6rem;
+        font-size: 9rem;
     }
 
     .first-letter{
